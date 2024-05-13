@@ -1,0 +1,43 @@
+.calculator-keys{
+    display:grid;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  .button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    
+  }
+  
+  .row{
+    margin: 8px 0;
+  }
+  .row input{
+    width: 291px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .display{
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height:2cm;
+    width:7.5cm;
+  }
